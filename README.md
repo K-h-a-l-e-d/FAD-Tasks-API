@@ -59,7 +59,6 @@ task-manager-api/
 │   └── data/
 │       ├── db.js               # SQLite connection, schema, seed data
 │       └── db.sqlite     # The database file (auto-created, gitignored)
-├── screenshots/               # Postman testing screenshots
 ├── .env.example
 ├── .gitignore
 ├── package.json
