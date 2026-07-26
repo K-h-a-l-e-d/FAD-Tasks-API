@@ -19,12 +19,22 @@ A simple RESTful API built with **Node.js**, **Express**, and **SQLite**.
 ## Postman Testing Screenshots
 
 - `GET /`
+<img width="1913" height="885" alt="Screenshot 2026-07-26 225111" src="https://github.com/user-attachments/assets/c9475666-225b-4891-91a8-4292ddb0d8b7" />  
 
 - `GET /tasks`
+<img width="1601" height="525" alt="Screenshot 2026-07-26 231416" src="https://github.com/user-attachments/assets/7a44158d-1101-4d39-aab6-2884164201e2" />
+
 - `POST /tasks` (success case)
+<img width="1611" height="530" alt="Screenshot 2026-07-26 231521" src="https://github.com/user-attachments/assets/c7af8898-462e-43e2-9b28-293eb4b0384c" />
+
 - `POST /tasks` (validation error — missing title)
+<img width="1618" height="626" alt="Screenshot 2026-07-27 000706" src="https://github.com/user-attachments/assets/2a3b1107-37a3-4695-aade-11e04e906522" />
+
 - `POST /login` (success case)
+<img width="1620" height="576" alt="Screenshot 2026-07-26 231847" src="https://github.com/user-attachments/assets/d4ed2bcd-887f-4287-95f6-2a5e4dc6c5be" />
+
 - `POST /login` (invalid credentials)
+<img width="1617" height="571" alt="Screenshot 2026-07-26 231745" src="https://github.com/user-attachments/assets/283c7a9a-5f2d-491d-b53c-934acb1a3bf0" />
 
 ## Project Structure
 
