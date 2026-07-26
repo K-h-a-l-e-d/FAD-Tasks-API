@@ -1,11 +1,5 @@
 require("dotenv").config();
-const express = require("express");
-
-const app = express();
-
-app.get("/", (req, res) => {
-  res.json({ success: true, message: "Tasks Manager API is running." });
-});
+const app = require("./src/app");
 
 const PORT = process.env.PORT || 3000;
 
