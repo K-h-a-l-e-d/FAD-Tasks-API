@@ -17,7 +17,7 @@ function login(req, res) {
   const isMatch = User.verifyPassword(user, password);
 
   if (!isMatch) {
-    res.status(401).json({
+    return res.status(401).json({
       success: false,
       message: "Invalid username or password.",
     });
