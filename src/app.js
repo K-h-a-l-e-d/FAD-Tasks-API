@@ -5,6 +5,9 @@ const tasksRoutes = require("./routes/taskRoutes");
 const authRoutes = require("./routes/authRoutes");
 const { notFound, errorHandler } = require("./middleware/errorHandler");
 
+// Parse incoming JSON request bodies
+app.use(express.json());
+
 app.get("/", (req, res) => {
   res.json({ success: true, message: "Tasks Manager API is running." });
 });
